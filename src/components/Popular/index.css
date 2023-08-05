@@ -1,0 +1,25 @@
+.popular-items {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 32px;
+  padding-right: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #000000;
+}
+@media (min-width: 768px) {
+  .popular-items {
+    margin-top: 0px;
+    padding-left: 165px;
+    padding-right: 135px;
+    background-color: #000000;
+  }
+}
